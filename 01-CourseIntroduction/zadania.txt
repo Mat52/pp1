@@ -1,0 +1,39 @@
+2.
+a) typ danych, w jakim formacie jest zapisana dana wartość (float int itp.)
+b) zmienna - struktura w której przechowujemy dane dynamiczne, które możemy zmieniać
+c) różne operatory matematyczne i nie tylko // % / + -
+3.
+
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
+
+
+Operator	Name	Example	Try it
++	Addition	x + y	
+-	Subtraction	x - y	
+*	Multiplication	x * y	
+/	Division	x / y	
+%	Modulus	x % y	
+**	Exponentiation	x ** y	
+//	Floor division	x // y
+=	x = 5	x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+//=	x //= 3	x = x // 3	
+**=	x **= 3	x = x ** 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3	

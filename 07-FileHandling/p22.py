@@ -1,6 +1,11 @@
 import csv
 
 with open("datacsv.csv", "r") as file:
-    reader = csv.reader(file, age<50)
+    fieldnames = ['first_name', "last_name", "age", "gender", "email"]
+    reader = csv.DictReader(file, fieldnames = fieldnames)
+    i = 0
     for row in reader:
-        print(row)
+        if i!=0:
+            if (int(row["age"]) < 30):
+                print(row["first_name"], row["last_name"], row["email"])
+        i+=1
